@@ -11,8 +11,8 @@
 - Access using the CloudFront URL created from the stack
 
 ## Reference
-[aws-samples/amazon-textract-comprehend-OCRimage-search-and-analyze](https://github.com/aws-samples/amazon-textract-comprehend-OCRimage-search-and-analyze "OCRimage-analyze")
-[aws-samples/amazon-textract-serverless-large-scale-document-processing](https://github.com/aws-samples/amazon-textract-serverless-large-scale-document-processing")
+- [aws-samples/amazon-textract-comprehend-OCRimage-search-and-analyze](https://github.com/aws-samples/amazon-textract-comprehend-OCRimage-search-and-analyze "OCRimage-analyze")
+- [aws-samples/amazon-textract-serverless-large-scale-document-processing](https://github.com/aws-samples/amazon-textract-serverless-large-scale-document-processing")
 
 
 ## Future Plans
