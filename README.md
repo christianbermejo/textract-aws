@@ -3,15 +3,20 @@
 - AWS Textract POC for company's internal training project
 
 ## Deployment
-Relies on CodeStar service.
-Look into README-CODESTAR.md for more information
+- Package Lambda layers using `aws cloudformation package` and deploy using `aws cloudformation deploy`
+- Put `index.html`, `index.js`, and `package.json` inside `public` folder and commit to the CodeCommit repo created from the stack
+- CodePipeline will take care of the build and deployment to the proper S3 bucket
 
-You can also look into preparing libraries and upload a deployment package into S3 for the Lambda functions
+## Access
+- Access using the CloudFront URL created from the stack
 
 ## Reference
 [aws-samples/amazon-textract-comprehend-OCRimage-search-and-analyze](https://github.com/aws-samples/amazon-textract-comprehend-OCRimage-search-and-analyze "OCRimage-analyze")
+[aws-samples/amazon-textract-serverless-large-scale-document-processing](https://github.com/aws-samples/amazon-textract-serverless-large-scale-document-processing")
+
 
 ## Future Plans
-- Provide a simple CRUD frontend for uploading to S3 bucket
-- Integrate load balancing and scaling services
+- Implement queues for synchronous and asynchronous jobs
+- Implement PDF support
+- Explore other ML/AI/OCR services
 - Check into having a local Elasticsearch service
