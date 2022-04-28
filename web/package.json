@@ -4,7 +4,7 @@
   "description": "Packages for Textract-S3-OCR-Kibana",
   "main": "app.js",
   "dependencies": {
-    "async": "^2.6.3",
+    "async": "^2.6.4",
     "aws-sdk": "^2.493.0",
     "browserify": "^16.3.0"
   },
